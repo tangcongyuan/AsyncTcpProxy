@@ -2,13 +2,14 @@
 
 from distutils.core import setup
 
-with open('README.md', 'r') as file:
+with open('README', 'r') as file:
     long_description = file.read()
 
 setup(name='AsyncTcpProxy',
-      version='0.4.0',
+      version='0.4.2',
       description='A proxy handles data to/from a TCP server.',
       long_description=long_description,
+      long_description_content_type='text/markdown',
       author='Eric Tang',
       author_email='tangcongyuan@gmail.com',
       url='',
